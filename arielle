@@ -1,0 +1,59 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);     
+}
+function draw() {
+    background("white");
+    
+    rect(0, 10, 100, 150);
+}
+function draw() {
+    background("white");
+
+    fill("#9C27B0");
+    rect(0, 10, 100, 150);
+}
+function draw() {
+    background("white");
+    
+    stroke("#E91E63") 
+    fill("#673AB7") 
+    rect(0, 10, 100, 150)
+}
+function draw() {
+  background(220);
+  
+  stroke("#E91E63");
+  fill("#9C27B0");
+  rect(mouseX, mouseY, 100, 150);
+}
+function draw() {
+  background(220);
+  
+  stroke("#E91E63");
+  fill("#9C27B0");
+  
+  console.log(mouseIsPressed);
+  rect(mouseX, mouseY, 100, 150);
+}
+function setup() {
+  // cria uma tela de 400px de largura por 400px de altura
+  createCanvas(400, 400);
+}
+function setup() {
+  createCanvas(400, 400);
+  background("#2196F3")
+}
+
+function draw() {
+  stroke("#E91E63");
+  fill("#9C27B0");
+  
+  
+  if (mouseIsPressed) {
+    rect(mouseX, mouseY, 20, 35);
+  }
+}
